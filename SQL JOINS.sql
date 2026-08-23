@@ -127,7 +127,7 @@ FULL OUTER JOIN production.stocks AS s
    combination between two tables.
 
    No ON condition is required.
-   ------------------------------- */
+   ----------------------------------------- */
 
 
 SELECT
