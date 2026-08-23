@@ -109,7 +109,7 @@ RIGHT JOIN production.stocks AS s
    Matching records are combined.
    Non-matching records show NULL.
    ------------------------------- */
-
+   -------
 
 SELECT
     p.product_name,
