@@ -43,4 +43,3 @@ SELECT *
 FROM sales.orders
 WHERE shipped_date IS NULL;
 
---section 2
