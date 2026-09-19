@@ -88,5 +88,5 @@ JOIN sales.orders
     ON customers.customer_id = orders.customer_id
 JOIN sales.order_items
     ON orders.order_id = order_items.order_id
-GROUP BY customers.first_name, customers.last_name
+   GROUP BY customers.first_name, customers.last_name
 ORDER BY total_spent DESC;
